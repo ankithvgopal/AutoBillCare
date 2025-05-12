@@ -27,9 +27,9 @@ Empowering busy households to track and pay bills effortlessly.
 
 ## ⚙️ How It Works
 
-1. **Onboarding**: Clients link bank accounts and bill providers or upload bills. Setup takes minutes.
+1. **Onboarding**: Clients link bank accounts and bill providers or upload bills. Setup takes minutes and one time setup.
 2. **Subscription Fee**: We charge a 3–5% handling fee on total bill amount once in an year (e.g., $100 bill → $3–$5 fee).
-3. **Automated Payments**: Payments are scheduled and executed securely on due dates.
+3. **Automated Payments**: Payments are scheduled and executed securely on due dates, which we will be handelling.
 4. **Dashboard**: Centralized view of all bills, due dates, and payment statuses.
 5. **Annual Portfolio Report**: Clear visual insights on yearly costs, trends, and category-wise inflation.
 
