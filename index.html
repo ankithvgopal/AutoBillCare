@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoBillCare - Simplify Your Bills</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #0056b3;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background-color: #004999;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1565514574271-102a7ccfa1f9') center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      max-width: 700px;
+      color: #111;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .features, .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #004999;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AutoBillCare</h1>
+    <p>Simplify Your Family's Bill Management</p>
+  </header>
+  <nav>
+    <a href="#how">How It Works</a>
+    <a href="#features">Features</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hero">
+    <h1 style="color: #111;">Never Miss a Bill Again. Let Us Handle It All For You.</h1>
+  </div>
+
+  <section class="section" id="how">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="card">
+        <h3>1. Onboard</h3>
+        <p>Submit your recurring bills and authorize us to manage them securely.</p>
+      </div>
+      <div class="card">
+        <h3>2. Subscribe</h3>
+        <p>Pay a 3–5% handling fee on each bill. No hidden costs.</p>
+      </div>
+      <div class="card">
+        <h3>3. Relax</h3>
+        <p>We automate payments, renewals, and alert you for changes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="features">
+    <h2>Core Features</h2>
+    <div class="features">
+      <div class="card">
+        <h3>Unified Dashboard</h3>
+        <p>Track electricity, internet, insurance and more in one place.</p>
+      </div>
+      <div class="card">
+        <h3>Timely Alerts</h3>
+        <p>Get notifications for due dates and upcoming renewals.</p>
+      </div>
+      <div class="card">
+        <h3>Secure Payments</h3>
+        <p>Automated payments with bank-level security and encryption.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="portfolio">
+    <h2>Portfolio Report</h2>
+    <p>Our unique annual infographic shows how your bills have evolved, highlighting inflation and potential savings. Stay financially aware without any manual work.</p>
+    <img src="https://images.unsplash.com/photo-1581091012184-dc0c4b47226c?auto=format&fit=crop&w=1000&q=80" alt="Portfolio Report Example" style="width: 100%; margin-top: 20px; border-radius: 10px;">
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Get Started Today</h2>
+    <p>Contact us at <strong>support@autobillcare.com</strong> to join the beta or ask questions.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AutoBillCare. All rights reserved.</p>
+  </footer>
+</body>
+</html>
